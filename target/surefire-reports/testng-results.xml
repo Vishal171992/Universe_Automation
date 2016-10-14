@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20527" started-at="2016-10-14T08:07:41Z" finished-at="2016-10-14T08:08:01Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="4944" started-at="2016-10-14T08:07:41Z" finished-at="2016-10-14T08:07:46Z">
+      <class name="AutomationTests.Login">
+        <test-method status="PASS" signature="callLogin()[pri:0, instance:AutomationTests.Login@3571b748]" name="callLogin" duration-ms="4641" started-at="2016-10-14T13:37:41Z" finished-at="2016-10-14T13:37:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callLogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AutomationTests.Login@3571b748]" name="tearDown" is-config="true" duration-ms="292" started-at="2016-10-14T13:37:45Z" finished-at="2016-10-14T13:37:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=callLogin status=SUCCESS method=Login.callLogin()[pri:0, instance:AutomationTests.Login@3571b748] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomationTests.Login -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="3442" started-at="2016-10-14T08:07:46Z" finished-at="2016-10-14T08:07:49Z">
+      <class name="AutomationTests.CreateProject">
+        <test-method status="PASS" signature="testmethod()[pri:0, instance:AutomationTests.CreateProject@28975c28]" name="testmethod" duration-ms="3395" started-at="2016-10-14T13:37:46Z" finished-at="2016-10-14T13:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AutomationTests.CreateProject@28975c28]" name="tearDown" is-config="true" duration-ms="46" started-at="2016-10-14T13:37:49Z" finished-at="2016-10-14T13:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testmethod status=SUCCESS method=CreateProject.testmethod()[pri:0, instance:AutomationTests.CreateProject@28975c28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomationTests.CreateProject -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="145" started-at="2016-10-14T08:07:49Z" finished-at="2016-10-14T08:07:49Z">
+      <class name="AutomationTests.CreateProject_negative">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:AutomationTests.CreateProject_negative@6bf0219d]" name="testMethod" duration-ms="72" started-at="2016-10-14T13:37:49Z" finished-at="2016-10-14T13:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:AutomationTests.CreateProject_negative@6bf0219d]" name="tearDown" is-config="true" duration-ms="72" started-at="2016-10-14T13:37:49Z" finished-at="2016-10-14T13:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMethod status=SUCCESS method=CreateProject_negative.testMethod()[pri:0, instance:AutomationTests.CreateProject_negative@6bf0219d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomationTests.CreateProject_negative -->
+    </test> <!-- Test3 -->
+    <test name="Test4" duration-ms="11980" started-at="2016-10-14T08:07:49Z" finished-at="2016-10-14T08:08:01Z">
+      <class name="AutomationTests.Createcrawler">
+        <test-method status="PASS" signature="testmethod()[pri:0, instance:AutomationTests.Createcrawler@5552768b]" name="testmethod" duration-ms="11980" started-at="2016-10-14T13:37:49Z" finished-at="2016-10-14T13:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethod -->
+      </class> <!-- AutomationTests.Createcrawler -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Suite -->
+</testng-results>

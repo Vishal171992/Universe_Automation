@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test2(failed)">
+    <classes>
+      <class name="AutomationTests.Login">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AutomationTests.Login -->
+      <class name="AutomationTests.CreateProject_negative">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AutomationTests.CreateProject_negative -->
+      <class name="AutomationTests.CreateProject">
+        <methods>
+          <include name="testmethod"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- AutomationTests.CreateProject -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
